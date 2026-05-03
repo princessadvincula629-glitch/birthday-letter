@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy 18th 💌</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #1a1a2e, #16213e);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+img {
+    width: 250px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e94560;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Happy 18th Birthday 🎉</h1>
+
+    <img src="YOUR_IMAGE_LINK_HERE" alt="Memory">
+
+    <p>
+    You’ve been officially brilliant for 18 years.  
+    And today, you step into a new chapter.  
+    I hope you never forget how much you mean to me.
+    </p>
+
+    <audio controls autoplay loop>
+        <source src="YOUR_MUSIC_LINK_HERE" type="audio/mp3">
+    </audio>
+
+    <br>
+
+    <button class="button" onclick="showMessage()">Click me 💖</button>
+
+    <p id="hiddenMessage" style="display:none;">
+        I’m really glad you exist. Happy birthday.
+    </p>
+</div>
+
+<script>
+function showMessage() {
+    document
